@@ -1,0 +1,31 @@
+body{
+ background-image:url(./cartoon-funny-monster-holding-blank-paper_6996-1087.avif);
+ margin-left: auto;
+ margin-left: auto;
+ width: auto;
+ height: auto;
+}
+header{
+    text-align: center;
+}
+main{
+    text-align: center;
+    margin-left: auto;
+    margin-top: auto;
+    
+
+}
+input{
+        height: 55px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+button{
+       
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+

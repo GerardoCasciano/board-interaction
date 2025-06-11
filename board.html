@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Lista della Spesa</h1>
+    </header>
+    <main>
+      <form>
+        <div id="buttoncontainer">
+          <label for="inputtyping"><p>Lista</p></label>
+          <input
+            type="text"
+            id="inputtyping(event)"
+            onmouseenter="buttonover(event)"
+          />
+          <button onclick="buttonclick(event)" onmouseenter="buttonover(event)">
+            <h2>Inserisci</h2>
+          </button>
+        </div>
+      </form>
+    </main>
+    <script src="./js/board.js"></script>
+  </body>
+</html>
